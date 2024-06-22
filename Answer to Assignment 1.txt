@@ -1,0 +1,117 @@
+Windows 10 installation process
+1. Prepare the Installation Media: First, I downloaded the Windows 10 Media Creation Tool from Microsoft's website. Using this tool, I created a bootable USB drive.
+
+2. Boot from the USB Drive: I inserted the USB drive into my computer and restarted it. I accessed the BIOS/UEFI settings by pressing the appropriate key during startup and set the USB drive as the primary boot device.
+
+3. Start the Installation: Once the computer booted from the USB drive, I selected my language, time, and keyboard preferences, then clicked "Next" and "Install Now."
+
+4. Enter the Product Key: I entered my Windows 10 product key. If I didn't have one, I chose the option to install Windows without a key and activated it later.
+
+5. Accept the License Terms: I read and accepted the Microsoft Software License Terms.
+
+6. Choose Installation Type: I selected "Custom: Install Windows only (advanced)" to perform a clean installation.
+
+7. Partition the Drive: I selected the partition where I wanted to install Windows. If necessary, I created or formatted partitions to prepare the drive.
+
+8. Install Windows: The installation process began, and my computer restarted several times. I waited for the installation to complete.
+
+9. *Set Up Windows*: After installation, I followed the on-screen instructions to personalize settings, such as choosing a region, setting up a user account, and configuring privacy settings.
+
+10. *Complete the Setup*: Once the initial setup was complete, I installed the latest Windows updates and drivers for my hardware.
+
+
+Steps to install Visual Studio Code
+
+1. *Download the Installer*: First, I visited the official Visual Studio Code website and downloaded the installer for my operating system (Windows, macOS, or Linux).
+
+2. *Run the Installer*: On Windows, I double-clicked the downloaded .exe file. On macOS, I opened the downloaded .dmg file and dragged Visual Studio Code to the Applications folder. On Linux, I followed the appropriate instructions for my distribution, such as using apt for Ubuntu.
+
+3. *Accept the Agreement*: During the installation process on Windows, I read and accepted the license agreement.
+
+4. *Select Installation Location*: I chose the installation location or kept the default path suggested by the installer.
+
+5. *Choose Additional Tasks*: I selected additional tasks like creating a desktop icon and adding Visual Studio Code to the PATH for easy command line access.
+
+6. *Install the Software*: I clicked "Install" and waited for the installation to complete.
+
+7. *Launch Visual Studio Code*: After the installation finished, I launched Visual Studio Code. On Windows, I clicked "Finish" and chose to launch Visual Studio Code immediately. On macOS and Linux, I opened Visual Studio Code from the Applications folder or via the command line.
+
+8. *Install Extensions*: To enhance functionality, I visited the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or by pressing Ctrl+Shift+X. I searched for and installed necessary extensions.
+
+
+
+1. *Installed Git*:
+    - I downloaded Git for Windows from https://git-scm.com/download/win.
+    - I ran the downloaded installer and followed the setup instructions, accepting the default options.
+
+2. *Configured Git*:
+    - I opened Git Bash from the Start Menu.
+    - I ran the following commands to configure my Git user name and email:
+    sh
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    
+
+3. *Cloned a Repository*:
+    - I opened Git Bash or Command Prompt.
+    - I ran git clone <repository URL>, replacing <repository URL> with the URL of the repository I wanted to clone. I specified the directory where I wanted the repository to be cloned.
+
+4. *Initialized a New Repository*:
+    - I navigated to my project directory in Git Bash or Command Prompt.
+    - I ran git init to create a new Git repository in my project directory.
+
+5. *Staged and Committed Changes*:
+    - I made changes to my project files.
+    - I ran git add . to stage all changes.
+    - I ran git commit -m "Your commit message" to commit the changes with a message.
+
+6. *Pushed and Pulled Changes*:
+    - To push my changes to a remote repository, I ran git push origin <branch-name>, replacing <branch-name> with my branch name.
+    - To pull changes from a remote repository, I ran git pull origin <branch-name>.
+
+7. *Created and Merged Branches*:
+    - I ran git branch <new-branch-name> to create a new branch.
+    - I ran git checkout <new-branch-name> to switch to the new branch.
+    - To merge changes from another branch, I first switched to the branch I wanted to merge into, then ran git merge <branch-name>.
+
+
+1. *Downloaded Python*:
+    - I visited the official Python website at https://www.python.org/downloads/.
+    - I downloaded the latest version of Python for Windows.
+
+2. *Ran the Installer*:
+    - I opened the downloaded installer.
+    - I checked the box that says "Add Python to PATH" to ensure Python is added to my system's PATH.
+    - I clicked on "Install Now" to start the installation process.
+
+3. *Verified the Installation*:
+    - Once the installation was complete, I opened Command Prompt.
+    - I typed python --version and pressed Enter to verify that Python was installed correctly. This command displayed the installed version of Python.
+    - I also typed pip --version to verify that pip, the Python package manager, was installed.
+
+4. *Set Up a Virtual Environment (Optional)*:
+    - I created a new directory for my project and navigated to it in Command Prompt.
+    - I ran python -m venv venv to create a virtual environment named "venv".
+    - I activated the virtual environment by running .\venv\Scripts\activate.
+    - I could deactivate the virtual environment later by running deactivate.
+
+5. *Installed Packages with pip*:
+    - With the virtual environment activated, I installed necessary packages by running pip install <package-name>, replacing <package-name> with the name of the package I needed.
+
+
+
+1. *Install MySQL*: First, I downloaded MySQL from their official website. Once the download finished, I ran the installer. During installation, I followed the instructions and set a root password when prompted.
+
+2. *Open MySQL Workbench*: After installation, I opened MySQL Workbench from the Start Menu. This is where I manage MySQL databases.
+
+3. *Connect to MySQL Server*: In MySQL Workbench, I clicked on the "+" icon next to "MySQL Connections" to add a new connection. I entered "localhost" as the hostname (since MySQL is on my own computer), used "root" as the username, and entered the root password I set during installation. Then I clicked "Test Connection" to make sure it worked.
+
+4. *Create a New Database*: Once connected, I clicked on the icon that looks like a cylinder with a plus sign ("Create a new schema"). I typed in the name for my new database and clicked "Apply" to create it.
+
+5. *Create a User (Optional)*: In MySQL Workbench, I went to the "Users and Privileges" tab. I clicked "Add Account" to create a new MySQL user. I entered a username and password for the new user and selected the privileges I wanted to grant (like SELECT, INSERT, UPDATE, etc.).
+
+6. *Test Your Setup*: Finally, I tested everything by running some SQL queries in MySQL Workbench. I made sure I could create tables, insert data, and retrieve information from my database.
+
+
+
+
